@@ -11,7 +11,7 @@ contract ClothingNFT is ERC721, Ownable {
     struct ClothingItem {
         string name;
         uint256 creationDate;
-        uint256 qrCodeHash;  // Remplacer qrCodeUrl par un hash ou un identifiant numérique pour limiter les chaînes
+        uint256 qrCodeHash;  
         address currentOwner;
     }
 
